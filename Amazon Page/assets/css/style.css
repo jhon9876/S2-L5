@@ -71,20 +71,23 @@ div {
   margin-right: 10px;
   margin-left: 10px;
   font-size: 15px;
+  margin: auto;
 }
 #Riquadro-immagini a {
   color: rgb(8, 56, 246);
   text-decoration: none;
   font-weight: bold;
   font-size: 10px;
+  margin: auto;
 }
 
 .immagini-accanto {
   display: inline;
   height: 200px;
   width: 150px;
-  margin-left: 15px;
-  margin-right: 15px;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 20px;
   border-radius: 20px;
 }
 
