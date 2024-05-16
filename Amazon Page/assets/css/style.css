@@ -1,1 +1,78 @@
 /* Your styles here */
+header {
+  background-color: black;
+}
+
+header img {
+  width: 150px;
+}
+
+nav {
+  background-color: rgb(86, 111, 210);
+  height: 18px;
+}
+nav a {
+  color: white;
+  margin: 5px;
+  text-decoration: none;
+}
+
+main {
+  margin: 30px;
+}
+
+div {
+  margin: 20px;
+}
+#bg-or {
+  background-color: orange;
+  height: 20px;
+}
+
+#bg-or p {
+  text-align: center;
+  color: white;
+}
+
+#bg-img {
+  background-image: url("../images/bg-image.png");
+  text-align: center;
+  height: 100px;
+  background-size: contain;
+}
+
+#bg-img h2 {
+  color: white;
+  padding: 20px;
+  font-weight: bold;
+}
+
+#bg-img p {
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+#Riquadro-immagini {
+  background-color: red;
+  height: 200px;
+}
+
+#Riquadro-immagini p {
+  display: inline;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-size: 15px;
+}
+#Riquadro-immagini a {
+  color: rgb(8, 56, 246);
+  text-decoration: none;
+  font-size: 10px;
+}
+
+immagini-accanto {
+  display: inline;
+  height: 70%;
+  width: 25%;
+  margin: auto;
+}
