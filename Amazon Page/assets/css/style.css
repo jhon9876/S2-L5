@@ -1,6 +1,10 @@
 /* Your styles here */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #e9edee;
+}
 header {
-  background-color: black;
+  background-color: #222f3f;
 }
 
 header img {
@@ -8,7 +12,7 @@ header img {
 }
 
 nav {
-  background-color: rgb(86, 111, 210);
+  background-color: #364759;
   height: 18px;
 }
 nav a {
@@ -25,7 +29,7 @@ div {
   margin: 20px;
 }
 #bg-or {
-  background-color: orange;
+  background-color: #dd5a10;
   height: 20px;
 }
 
@@ -54,8 +58,12 @@ div {
 }
 
 #Riquadro-immagini {
-  background-color: red;
-  height: 200px;
+  background-color: #ffffff;
+  height: 300px;
+  text-align: center;
+  border: 1px;
+  border-style: solid;
+  border-color: gray;
 }
 
 #Riquadro-immagini p {
@@ -67,12 +75,47 @@ div {
 #Riquadro-immagini a {
   color: rgb(8, 56, 246);
   text-decoration: none;
+  font-weight: bold;
   font-size: 10px;
 }
 
-immagini-accanto {
+.immagini-accanto {
   display: inline;
-  height: 70%;
-  width: 25%;
-  margin: auto;
+  height: 200px;
+  width: 150px;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-radius: 20px;
+}
+
+#Immagine-grande img {
+  width: 100%;
+}
+
+#Immagine-grande p {
+  text-align: center;
+}
+#Immagine-grande p a {
+  text-decoration: none;
+  color: rgb(8, 56, 246);
+  font-size: 10px;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #364759;
+  text-align: center;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+footer div {
+  background-color: #222f3f;
+  margin: 0;
+}
+
+footer img {
+  width: 100px;
 }
